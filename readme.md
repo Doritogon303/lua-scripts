@@ -23,4 +23,4 @@ Tested on: Script-Ware, Synapse X
 
 ```
 ## Demonstration
-![Image](https://cdn.303ph.xyz/r/y2z3WQO3ug.gif "icon")
+![Image](https://us-east-1.tixte.net/uploads/cdn.303ph.xyz/y2z3WQO3ug.gif)
