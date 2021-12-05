@@ -22,4 +22,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Doritogon303/lua-scri
 ```
 Tested on: Script-Ware, Synapse X
 ## Demonstration
-<img src="/y2z3WQO3ug.gif"/>
+<img src="/y2z3WQO3ug.gif" width="467" height="367" />
