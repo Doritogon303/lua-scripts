@@ -13,6 +13,7 @@ Tested on: Script-Ware
 # RTDS
 
 RTDS is script for game called [Retro TDS](https://www.roblox.com/games/7215261025/)
+
 _requested by lexxndr_
 
 ## Script
@@ -21,4 +22,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Doritogon303/lua-scri
 ```
 Tested on: Script-Ware, Synapse X
 ## Demonstration
-![Image](https://us-east-1.tixte.net/uploads/cdn.303ph.xyz/y2z3WQO3ug.gif)
+<img src="https://us-east-1.tixte.net/uploads/cdn.303ph.xyz/y2z3WQO3ug.gif" width="40" height="40" />
