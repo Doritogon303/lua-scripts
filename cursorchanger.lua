@@ -7,8 +7,6 @@ local ImageLabel_3 = Instance.new("ImageLabel")
 local TextBox = Instance.new("TextBox")
 local ImageButton = Instance.new("ImageButton")
 
---Properties:
-
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Frame.Parent = ScreenGui
