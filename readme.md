@@ -1,10 +1,9 @@
 ## List of scripts
--[dabserka](#dabserka-v04)
+- [dabserka](#dabserka-v04)
 
--[RTDS](#RTDS)
+- [RTDS](#RTDS)
 
--[Cursor Changer](#Cursor-Changer)
-
+- [Cursor Changer](#Cursor-Changer)
 
 
 # dabserka v0.4
