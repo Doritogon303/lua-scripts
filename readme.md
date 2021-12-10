@@ -8,7 +8,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Doritogon303/lua-scri
 ```
 Tested on: Script-Ware
 ## Screenshots
-![Image](https://cdn.303ph.xyz/r/RobloxPlayerBeta_bHbVhBBui6.png "icon")
+<img src="gWCo3GRhYu.png" width="227" height="123" />
 
 # RTDS
 
