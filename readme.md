@@ -8,7 +8,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Doritogon303/lua-scri
 ```
 Tested on: Script-Ware
 ## Screenshots
-<img src="gWCo3GRhYu.png" width="227" height="123" />
+<img src="gWCo3GRhYu.png" width="454" height="245" />
 
 # RTDS
 
