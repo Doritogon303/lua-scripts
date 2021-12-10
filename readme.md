@@ -1,7 +1,7 @@
 ## List of scripts
-*[dabserka](#dabserka-v04)
-*RTDS
-*Cursor Changer
+-[dabserka](#dabserka-v04) /n
+-[RTDS](#RTDS) /n
+-[Cursor Changer](#Cursor-Changer) /n
 
 
 # dabserka v0.4
