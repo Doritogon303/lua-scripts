@@ -28,7 +28,7 @@ Tested on: Script-Ware, Synapse X
 
 ## Script
 ```lua
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Doritogon303/lua-scripts/main/cursorchanger.lua", true))()
 ```
 Tested on: Script-Ware
 ## Demonstration
