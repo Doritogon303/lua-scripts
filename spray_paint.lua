@@ -56,10 +56,16 @@ local function copyinvite()
 	setclipboard("https://gg.gg/bunk3r")
 end
 
+local function layerxd(v)
+	print(v)
+	game.Players.LocalPlayer.PlayerGui.PaintGui.Layer.TextLabel.Text = v
+end
+
 do
 local window = library:CreateWindow('Spray Paint')
 local folder = window:AddFolder('Script')
 folder:AddButton({text = "Get all gamepasses", flag = "button", callback = function() getgamepasses() end})
+folder:AddSlider({text = 'Layer', min = 1, max = 25, callback = function(v) layerxd(v) end})
 window:AddDivider()
 window:AddButton({text = "Copy Discord", flag = "button", callback = function() copyinvite() end})
 window:AddButton({text = "Unload Script", flag = "button", callback = function() closegui() end})
