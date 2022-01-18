@@ -14,6 +14,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Doritogon303/lua-scri
 ```
 
 # Cursor Changer
-## Script
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Doritogon303/lua-scripts/main/cursorchanger.lua", true))()
