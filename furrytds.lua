@@ -92,7 +92,7 @@ local function HFZGONE_fake_script() -- ScreenGui.LocalScript
     button.MouseButton1Click:Connect(function()
         print('clicked')
         for _, I in pairs(game:GetService("Workspace").Map.NoPlace:GetDescendants()) do
-            if I:IsA("Part") and I.Name == "NoPlace" then
+            if I:IsA("Part") and I.Name == "NoPlacePart" then
                 I:Destroy()
             end
         end
