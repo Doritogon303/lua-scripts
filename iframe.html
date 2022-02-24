@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<head>
+<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1200px-Lua-Logo.svg.png" type="image/png">
+<link rel="stylesheet" href="https://unpkg.com/98.css">
+<title>Scripts</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: #c0c0c0;
+}
+
+main {
+  width: 65rem;
+  margin-left: 240px;
+  margin-bottom: 60px;
+}
+
+aside {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  bottom: 0px;
+  padding: 8px;
+  display: flex;
+  align-items: stretch;
+}
+
+aside .tree-view {
+  width: 100%;
+  /* TODO: Move scrollbar into the recessed region? */
+  overflow-y: scroll;
+}
+
+h1 {
+  margin: 12px 0;
+}
+
+hr {
+  margin: 0;
+  border: none;
+  width: 400px;
+  height: 1px;
+  opacity: 0.5;
+  background: linear-gradient(
+    to right,
+    red 20%,
+    yellow 20%,
+    yellow 36%,
+    green 36%,
+    green 60%,
+    blue 60%,
+    blue 100%
+  );
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h3,
+h4 {
+  /* Swap the margin for a top-padding so linking to this section
+     results in a better scroll position */
+  padding-top: 20px;
+  margin-top: 0;
+  display: block;
+  flex: 0 0 180px;
+}
+
+p {
+  max-width: 50rem;
+  line-height: 1.5;
+}
+
+.component {
+  display: flex;
+  margin-top: 24px;
+}
+
+blockquote {
+  margin: 0 0 20px;
+  padding: 20px;
+  background: #dfdfdf;
+}
+
+blockquote footer {
+  margin: 12px 0 0 12px;
+}
+
+.example {
+  margin: 16px 0;
+  padding: 12px 24px;
+  border-left: 1px solid #808080;
+}
+
+details {
+  margin-top: 12px;
+}
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  display: inline;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary {
+  margin-bottom: 8px;
+}
+
+button.focused {
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
+}
+
+button.active {
+  box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a,
+    inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+
+@media (max-width: 480px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  h3,
+  h4 {
+    flex: 0;
+  }
+
+  .component {
+    display: block;
+    margin-top: 24px;
+  }
+
+  pre {
+    overflow-x: scroll;
+  }
+}
+</style>
+<script>
+function closeweb() {
+setTimeout(function(){window.close();},1500);}
+</script>
+</head>
+<body>
+  </div>
+  <div class="window-body">
+  <aside>
+    <ul class="tree-view">
+      <li><a href="#intro">Intro</a></li>
+      <li>
+        <a href="#components">My Scripts</a>
+        <ul>
+          <li><a href="#spray">spray print</a></li>
+          <li><a href="#dabs">da amazing bunker simulator</a></li>
+          <li><a href="#changer">cursor changer</a></li>
+          <li><a href="#robuxobby">parkour for robux gui</a></li>
+          <li><a href="#rtds">noplace remover</a></li>
+        </ul>
+		<a href="#others">Other scripts</a>
+		<ul>
+		<li><a href="#espaim">Cool Hax Pro</a></li>
+      </ul>
+      <li><a href="#end">End</a></li>
+    </ul></aside>
+<main>
+<h2 id="intro">Hello everyone</h2>
+<p>This site was made for my scripts. if you find errors / bugs write to the my Discord, id:178364006271156224</p>
+<h3 id="components">My scripts</h3>
+<b>Scripts that I made:</b>
+<p></p>
+ <fieldset id="spray">
+  <legend><b>spray print</b></legend>
+  <p>Script functions:</p>
+  <ul>
+	<li>Get all gamepasses</li>
+	<li>Extra layers(up to 25)</li>
+  </ul>
+  <div class="field-row">
+    <label></label>
+  </div>
+  <pre><code>loadstring(game:HttpGet("https://scripts.1ocalhost.tk/spray_paint.lua", true))()</code></pre>
+</fieldset>
+<p></p>
+<p></p>
+ <fieldset id="dabs">
+  <legend><b>da amazing bunker simulator</b></legend>
+  <p>Script functions:</p>
+  <ul>
+	<li>Auto DLC</li>
+	<li>Anti AFK</li>
+	<li>Rainbow card</li>
+	<li>Webhook support</li>
+  </ul>
+  <div class="field-row">
+    <label></label>
+  </div>
+  <pre><code>loadstring(game:HttpGet("https://scripts.1ocalhost.tk/dabs.lua", true))()</code></pre>
+</fieldset>
+<p></p>
+<p></p>
+ <fieldset id="changer">
+  <legend><b>cursor changer</b></legend>
+  <p>Script functions:</p>
+  <ul>
+	<li>Changes cursor</li>
+  </ul>
+  <div class="field-row">
+    <label></label>
+  </div>
+  <pre><code>loadstring(game:HttpGet("https://scripts.1ocalhost.tk/cursorchanger.lua", true))()</code></pre>
+</fieldset>
+<p></p>
+<p></p>
+ <fieldset id="robuxobby">
+  <legend><b>parkour for robux</b></legend>
+  <p>Script functions:</p>
+  <ul>
+	<li>Generate fake check</li>
+  </ul>
+  <div class="field-row">
+    <label></label>
+  </div>
+  <pre><code>loadstring(game:HttpGet("https://scripts.1ocalhost.tk/parkyrgui.lua", true))()</code></pre>
+</fieldset>
+<p></p>
+<p></p>
+ <fieldset id="rtds">
+  <legend><b>Noplace remover</b></legend>
+  <p>Script functions:</p>
+  <ul>
+	<li>Removes noplace</li>
+  </ul>
+  <div class="field-row">
+    <label>for Retro TDS</label>
+  </div>
+  <pre><code>loadstring(game:HttpGet("https://scripts.1ocalhost.tk/rtds.lua", true))()</code></pre>
+  <p></p>
+  <div class="field-row">
+	<label>for awakening furry defenses</label>
+  </div>
+  <pre><code>loadstring(game:HttpGet("https://scripts.1ocalhost.tk/furrytds.lua", true))()</code></pre>
+</fieldset>
+
+<h3 id="others">Other scripts</h3>
+<fieldset id="aimesp">
+  <legend><b>Cool Pro Hax</b></legend>
+  <p>Script functions:</p>
+  <ul>
+	<li>Esp</li>
+	<li>Aim</li>
+  </ul>
+  <div class="field-row">
+    <label></label>
+  </div>
+  <pre><code>loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()</code></pre>
+</fieldset>
+<p></p>
+<p></p>
+<h2 id="end">End</h2>
+<b>by doritogon303 | <a href="https://jdan.github.io/98.css/">CSS</a> | <a href="https://github.com/Doritogon303/lua-scripts"> github </a> | made with love </b>
+</div>
+</body>
